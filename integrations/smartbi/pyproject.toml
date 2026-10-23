@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kk-smartbi-sdk"
+version = "0.5.1"
+description = "A small HTTP client for Smartbi 7.2 spreadsheet reports"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+mcp = ["mcp>=2.3,<3"]
+
+[project.scripts]
+kk-smartbi = "kk_smartbi.__main__:main"
+kk-smartbi-mcp = "kk_smartbi.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
