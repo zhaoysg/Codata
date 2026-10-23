@@ -1,0 +1,9 @@
+config.ini
+*.local.ini
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+results/

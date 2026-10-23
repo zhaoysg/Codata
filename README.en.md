@@ -205,6 +205,7 @@ User
 
 ## Companion Projects
 
+- **[Smartbi Python SDK and MCP](integrations/smartbi/README.md)**: an optional standalone report connector with catalog/name search, parameter and worksheet discovery, asynchronous queries, and snapshot pagination. Service URLs and read-only accounts are configured by the user.
 - **[CodataAdmin: Semantic Model Admin](https://github.com/Mlilion/CodataAdmin)**: a companion semantic governance and admin platform for maintaining business domains, entities, semantic fields, semantic models, joins, metrics, dimensions, and the knowledge base, with trusted querying exposed through an MCP server. Once Codata connects to its MCP server, analyses can use the published semantic models and metric definitions directly.
 
 ## Download & Docs
@@ -322,6 +323,7 @@ desktop-tauri/    Tauri v2 desktop shell and Rust integration
 frontend/         Next.js UI for Codata workspace, chat, dashboards, expert teams, settings, and artifacts
 backend/          FastAPI backend, agent runtime, data tools, expert orchestration, storage, and providers
 scripts/          Build, release, verification, signing, and version utilities
+integrations/     Optional standalone data-source SDKs and MCP connectors
 design-system/    Product design references and visual assets
 ```
 

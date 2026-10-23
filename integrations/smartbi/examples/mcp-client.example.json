@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "smartbi": {
+      "command": "C:/path/to/venv/Scripts/python.exe",
+      "args": [
+        "-m",
+        "kk_smartbi.mcp_server",
+        "--config",
+        "C:/path/to/smartbi/config.ini"
+      ]
+    }
+  }
+}

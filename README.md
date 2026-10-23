@@ -205,6 +205,7 @@ User
 
 ## 配套项目
 
+- **[Smartbi Python SDK 与 MCP](integrations/smartbi/README.md)**：独立可选的报表连接器，支持目录与名称搜索、参数和工作表发现、异步查询及快照翻页。服务地址和读取账号由使用方自行配置。
 - **[CodataAdmin 语义模型后台](https://github.com/Mlilion/CodataAdmin)**：配套的语义治理与管理平台，用于维护业务域、业务实体、语义字段、语义模型、JOIN、指标、维度和知识库，并通过 MCP Server 提供可信取数能力。Codata 连接其 MCP Server 后，可直接使用已发布的语义模型和指标口径进行分析。
 
 ## 下载与文档
@@ -305,6 +306,7 @@ desktop-tauri/    Tauri v2 桌面外壳与 Rust 集成
 frontend/         Next.js UI，包含 Codata 工作区、聊天、看板、专家团、设置和 artifact
 backend/          FastAPI 后端、Agent runtime、数据工具、专家编排、存储和 provider 层
 scripts/          构建、发布、验证、签名和版本工具
+integrations/     可选的独立数据源 SDK 与 MCP 连接器
 design-system/    产品设计参考和视觉资产
 ```
 
